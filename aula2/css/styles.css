@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    /* Aplicar uma imagem de fundo com o comando background-image */
+    background-image: url("../images/woman3.png");
+
+    /* Largura do header */
+    width: 100%;
+
+    /* Altura do header */
+    height: 800px;
+
+    background-color: #996e00;
+
+    /* Não repetir a imagem de fundo */
+    background-repeat: no-repeat;
+
+    /* Alterar o tamanho da imagem de fundo */
+    background-size: cover;           /*contain para justar ao tamanho da tela*/
+
+    /* Alterar a posição do plano de fundo.
+    O primeiro elemento é a posição x e o segundo a posição y */
+    background-position: 0 -30px;
+
+    /* Vamos dispor(display) o conteúdo de forma flexível */
+    display: flex;
+}
+
+header #direita{                        /*Colocamos a # porque ele é um ID*/
+    font-size: 180pt;
+    font-family:Verdana;
+    color:rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    font-weight: bold;                  /*Deixar negrito*/
+    letter-spacing: -25px;              /*Juntar as letras*/
+    flex: 1;
+    height: 300px;
+    margin-top:240px;
+    margin-right: -200px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+header #esquerda{
+    flex: 5;
+    padding-left: 20px;
+    color:rgb(255, 255, 255);
+    font-family:Verdana;
+    font-size:30pt;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 3px 3px 5px #000000;
+
+}
+
+header #esquerda span{
+    font-size:20pt;
+}
+
+header #esquerda img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+header #esquerda #fb, header #esquerda #ig{
+    font-size: 15pt;
+    font-weight: normal;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+header #esquerda #end{
+    font-weight: lighter;
+    color:rgb(0, 0, 0);
+    font-size: 10pt;
+    line-height: 25pt;
+    display: block;
+    text-shadow: none;
+}
+header #esquerda #end img{
+
+    width:200px;
+    height: 200px;
+}
