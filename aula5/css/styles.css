@@ -17,7 +17,7 @@ main{
 }
 
 #area h3{
-    font-size: 20pt;
+    font-size: 20pt; /*Tamanho da fonte*/
     font-family: 'Bebas Neue', sans-serif;
     color:rgb(0, 0, 0);
     margin-left:30px;   /*Foi para a direita*/
@@ -30,8 +30,8 @@ main{
 }
 
 #area img{
-    width: 20px;
-    height: 20px;
+    width: 20px; /*largura*/
+    height: 20px; /*altura*/
     margin-top:30px;
     margin-right: 90px;
 }
